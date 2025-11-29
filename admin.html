@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrace - Dějiny umění</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container admin-container">
+        <header>
+            <h1>Administrace</h1>
+            <a href="index.html" class="btn secondary-btn">Zpět na kvíz</a>
+        </header>
+
+        <main>
+            <div class="admin-layout">
+                <div class="questions-list-panel">
+                    <h2>Seznam otázek</h2>
+                    <ul id="questions-list" class="questions-list">
+                        <!-- List items generated here -->
+                    </ul>
+                    <button id="add-new-btn" class="btn primary-btn full-width">Přidat novou otázku</button>
+                </div>
+
+                <div class="editor-panel" id="editor-panel" style="display: none;">
+                    <h2 id="editor-title">Editace otázky</h2>
+                    <form id="question-form">
+                        <div class="form-group">
+                            <label for="title">Název díla:</label>
+                            <input type="text" id="title" name="title" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="author">Autor:</label>
+                            <input type="text" id="author" name="author" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="year">Rok:</label>
+                            <input type="text" id="year" name="year" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="field">Obor:</label>
+                            <input type="text" id="field" name="field" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="style">Styl (oddělené čárkou):</label>
+                            <input type="text" id="style" name="style" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="image">Cesta k obrázku:</label>
+                            <input type="text" id="image" name="image" required>
+                            <div class="image-preview">
+                                <img id="preview-img" src="" alt="Náhled">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Možnosti (první je správná odpověď, automaticky se zamíchají):</label>
+                            <input type="text" id="option1" class="option-input" placeholder="Správná odpověď (Autor)"
+                                readonly>
+                            <input type="text" id="option2" class="option-input" placeholder="Možnost 2" required>
+                            <input type="text" id="option3" class="option-input" placeholder="Možnost 3" required>
+                            <input type="text" id="option4" class="option-input" placeholder="Možnost 4" required>
+                            <p class="hint">První možnost se automaticky vyplní podle autora.</p>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn primary-btn">Uložit změny</button>
+                            <button type="button" id="cancel-btn" class="btn secondary-btn">Zrušit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+
+</html>

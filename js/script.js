@@ -4,6 +4,7 @@ let currentQuestion = 0;
 let score = 0;
 let answered = false;
 let currentQuizData = [];
+let quizData = [];
 
 const quizImage = document.getElementById('quiz-image');
 const optionsContainer = document.getElementById('options');
@@ -131,7 +132,16 @@ function shuffleArray(array) {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    initSetup();
+    fetch('/api/questions')
+        .then(res => res.json())
+        .then(data => {
+            quizData = data;
+            initSetup();
+        })
+        .catch(err => {
+            console.error("Failed to load questions:", err);
+            alert("Nepodařilo se načíst otázky. Ujistěte se, že běží server (python server.py).");
+        });
 });
 
 function initSetup() {
