@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poznávačka: Český kubismus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Český kubismus</h1>
+            <p>Poznávačka děl</p>
+        </header>
+
+        <main id="quiz-container">
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+
+            <div class="card">
+                <div class="image-container">
+                    <div class="loading-spinner" id="loading"></div>
+                    <img id="quiz-image" src="" alt="Dílo českého kubismu" style="display: none;">
+                </div>
+
+                <div class="options-container" id="options">
+                    <!-- Options will be generated here -->
+                </div>
+
+                <div class="feedback" id="feedback"></div>
+
+                <button id="next-btn" class="btn primary-btn" style="display: none;">Další dílo</button>
+            </div>
+        </main>
+
+        <div id="result-container" style="display: none;">
+            <h2>Výsledek</h2>
+            <p id="score-text"></p>
+            <button id="restart-btn" class="btn secondary-btn">Začít znovu</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

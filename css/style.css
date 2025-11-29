@@ -1,0 +1,223 @@
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #e67e22;
+    --bg-color: #ecf0f1;
+    --text-color: #34495e;
+    --card-bg: #ffffff;
+    --correct-color: #27ae60;
+    --wrong-color: #c0392b;
+    --font-main: 'Outfit', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.background-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.shape {
+    position: absolute;
+    background: rgba(44, 62, 80, 0.05);
+    transform: rotate(45deg);
+}
+
+.shape-1 {
+    width: 300px;
+    height: 300px;
+    top: -50px;
+    left: -50px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.shape-2 {
+    width: 500px;
+    height: 500px;
+    bottom: -100px;
+    right: -100px;
+    background: rgba(230, 126, 34, 0.05);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.shape-3 {
+    width: 200px;
+    height: 200px;
+    top: 40%;
+    left: 20%;
+    background: rgba(44, 62, 80, 0.03);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    z-index: 1;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 0; /* Cubist style - sharp corners */
+    box-shadow: 10px 10px 0px rgba(0,0,0,0.1);
+    clip-path: polygon(
+        0% 0%, 
+        100% 0%, 
+        100% 95%, 
+        95% 100%, 
+        0% 100%
+    );
+    transition: transform 0.3s ease;
+}
+
+.image-container {
+    width: 100%;
+    height: 300px;
+    background-color: #f0f0f0;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid var(--primary-color);
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.option-btn {
+    padding: 1rem;
+    background: white;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.option-btn:hover:not(:disabled) {
+    background: var(--primary-color);
+    color: white;
+    transform: translateX(5px);
+}
+
+.option-btn.correct {
+    background-color: var(--correct-color);
+    border-color: var(--correct-color);
+    color: white;
+}
+
+.option-btn.wrong {
+    background-color: var(--wrong-color);
+    border-color: var(--wrong-color);
+    color: white;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    font-family: var(--font-main);
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.primary-btn {
+    background-color: var(--accent-color);
+    color: white;
+    box-shadow: 4px 4px 0px var(--primary-color);
+}
+
+.primary-btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px var(--primary-color);
+}
+
+.primary-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 0px var(--primary-color);
+}
+
+.secondary-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: var(--accent-color);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.feedback {
+    min-height: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .options-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
