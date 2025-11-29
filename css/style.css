@@ -547,11 +547,13 @@ h1 {
     background: #f0f0f0;
     border: 1px solid #ddd;
     overflow: hidden;
+    min-height: 0;
 }
 
 .large-image-preview img {
+    /* 100vh - 120px (layout) - 64px (padding panelu) - 4px (rámečky/rezerva) */
+    max-height: calc(100vh - 220px);
     max-width: 100%;
-    max-height: 100%;
     object-fit: contain;
 }
 
