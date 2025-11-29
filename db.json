@@ -15,7 +15,9 @@
             "style": [
                 "český kubismus",
                 "kubismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Josef Gočár"
         },
         {
             "image": "assets/images/electric_lamp_cubist.jpg",
@@ -32,7 +34,9 @@
             "style": [
                 "český kubismus",
                 "kubismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Emil Králíček"
         },
         {
             "image": "assets/images/cubist_coffee_set.jpg",
@@ -49,7 +53,9 @@
             "style": [
                 "český kubismus",
                 "kubismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Pavel Janák"
         },
         {
             "image": "assets/images/cubist_painting_capek.jpg",
@@ -66,7 +72,9 @@
             "style": [
                 "český kubismus",
                 "kubismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Josef Čapek"
         },
         {
             "image": "assets/images/cubist_spa_gocar.jpg",
@@ -83,7 +91,9 @@
             "style": [
                 "český kubismus",
                 "kubismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Josef Gočár"
         },
         {
             "image": "assets/images/capek_koupel_nohou.jpg",
@@ -100,7 +110,9 @@
             "style": [
                 "český kubismus",
                 "kubismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Josef Čapek"
         },
         {
             "image": "assets/images/Andy_Warhol-Warhol-Campbell_Soup-1-screenprint-1968.jpg",
@@ -116,7 +128,9 @@
             "field": "malba",
             "style": [
                 "pop art"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Andy Warhol"
         },
         {
             "image": "assets/images/1936_1937_lighted_giraffes_01.jpg",
@@ -132,7 +146,9 @@
             "field": "malba",
             "style": [
                 "surrealismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Salvador Dalí"
         },
         {
             "image": "assets/images/1844_turner_rain_steam_speed.jpg",
@@ -148,7 +164,9 @@
             "field": "malba",
             "style": [
                 "romantismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "J. M. W. Turner"
         },
         {
             "image": "assets/images/1893_Edvard_Munch_The_Scream-WR400.jpg",
@@ -164,7 +182,9 @@
             "field": "malba",
             "style": [
                 "expresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Edvard Munch"
         },
         {
             "image": "assets/images/407HS0209-obraz-vaza-s-15-slunecnicemi.jpeg",
@@ -180,7 +200,9 @@
             "field": "malba",
             "style": [
                 "postimpresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Vincent van Gogh"
         },
         {
             "image": "assets/images/46.PabloPicasso-Guernica-1937.jpg",
@@ -197,7 +219,9 @@
             "style": [
                 "kubismus",
                 "surrealismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Pablo Picasso"
         },
         {
             "image": "assets/images/584px-Bohumil_kubista_Hypnotiser.jpg",
@@ -215,7 +239,9 @@
                 "český kubismus",
                 "kubismus",
                 "expresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Bohumil Kubišta"
         },
         {
             "image": "assets/images/800px-Jasper_Johns's_'Map',_1961.jpg",
@@ -232,7 +258,9 @@
             "style": [
                 "neo-dada",
                 "pop art"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Jasper Johns"
         },
         {
             "image": "assets/images/GALERIE_063_FRANTISEK_KUPKA_DVOUBAREVNA_FUGA.jpg",
@@ -249,7 +277,9 @@
             "style": [
                 "abstrakce",
                 "orfismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "František Kupka"
         },
         {
             "image": "assets/images/Gauguin_Tahitian_Women_-_On_the_Beach_1891.jpg",
@@ -265,7 +295,9 @@
             "field": "malba",
             "style": [
                 "postimpresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Paul Gauguin"
         },
         {
             "image": "assets/images/Henri Matisse - Hudba 1939.JPG",
@@ -281,7 +313,9 @@
             "field": "malba",
             "style": [
                 "fauvismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Henri Matisse"
         },
         {
             "image": "assets/images/braque_zena_s_mandolinou127.jpg",
@@ -297,7 +331,9 @@
             "field": "malba",
             "style": [
                 "kubismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Georges Braque"
         },
         {
             "image": "assets/images/duchamp_fontana.jpg",
@@ -313,7 +349,9 @@
             "field": "sochařství",
             "style": [
                 "dadaismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Marcel Duchamp"
         },
         {
             "image": "assets/images/g_landart_2.jpg",
@@ -329,7 +367,9 @@
             "field": "land art",
             "style": [
                 "land art"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Robert Smithson"
         },
         {
             "image": "assets/images/gauguin-yellow christ.jpg",
@@ -346,7 +386,9 @@
             "style": [
                 "postimpresionismus",
                 "syntetismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Paul Gauguin"
         },
         {
             "image": "assets/images/gogh-hvezdne_nebe.jpg",
@@ -362,7 +404,9 @@
             "field": "malba",
             "style": [
                 "postimpresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Vincent van Gogh"
         },
         {
             "image": "assets/images/golconde.jpg",
@@ -378,7 +422,9 @@
             "field": "malba",
             "style": [
                 "surrealismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "René Magritte"
         },
         {
             "image": "assets/images/olympia.jpg",
@@ -395,7 +441,9 @@
             "style": [
                 "realismus",
                 "impresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Édouard Manet"
         },
         {
             "image": "assets/images/the_persistence_of_memory_1931_salvador_dali.jpg",
@@ -411,7 +459,9 @@
             "field": "malba",
             "style": [
                 "surrealismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Salvador Dalí"
         },
         {
             "image": "assets/images/toyen_slumberingwoman.jpg",
@@ -427,7 +477,9 @@
             "field": "malba",
             "style": [
                 "surrealismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Toyen"
         },
         {
             "image": "assets/images/nude_in_the_sunlight.JPG",
@@ -443,7 +495,9 @@
             "field": "malba",
             "style": [
                 "impresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Pierre-Auguste Renoir"
         },
         {
             "image": "assets/images/Cezanne.jpg",
@@ -459,7 +513,9 @@
             "field": "malba",
             "style": [
                 "postimpresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Paul Cézanne"
         },
         {
             "image": "assets/images/Franz_Marc.jpg",
@@ -475,7 +531,9 @@
             "field": "malba",
             "style": [
                 "expresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Franz Marc"
         },
         {
             "image": "assets/images/artwork_images_424143444_356806_rene-magritte.jpg",
@@ -491,7 +549,9 @@
             "field": "malba",
             "style": [
                 "surrealismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "René Magritte"
         },
         {
             "image": "assets/images/artwork_images_588_378278_victor-vasarely.jpg",
@@ -507,7 +567,9 @@
             "field": "malba",
             "style": [
                 "op art"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Victor Vasarely"
         },
         {
             "image": "assets/images/505.jpg",
@@ -523,7 +585,9 @@
             "field": "malba",
             "style": [
                 "baroko"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Johannes Vermeer"
         },
         {
             "image": "assets/images/6a00d8341bfd7f53ef00e551bb420c8834-640wi.jpg",
@@ -540,7 +604,9 @@
             "style": [
                 "pop art",
                 "graffiti"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Keith Haring"
         },
         {
             "image": "assets/images/andy-warhol-effect-all.jpg",
@@ -556,7 +622,9 @@
             "field": "malba",
             "style": [
                 "pop art"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Andy Warhol"
         },
         {
             "image": "assets/images/art00528.jpg",
@@ -572,7 +640,9 @@
             "field": "malba",
             "style": [
                 "secese"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Gustav Klimt"
         },
         {
             "image": "assets/images/b969.jpg",
@@ -588,7 +658,9 @@
             "field": "grafika",
             "style": [
                 "ukiyo-e"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Kacušika Hokusai"
         },
         {
             "image": "assets/images/hadanka.jpg",
@@ -604,9 +676,12 @@
             "field": "malba",
             "style": [
                 "regionalismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Grant Wood"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/hudebni_nastroj.jpg",
             "title": "Ingresovy housle",
             "author": "Man Ray",
@@ -616,11 +691,12 @@
                 "surrealismus"
             ],
             "options": [
-                "Georges Braque",
+                "Man Ray",
                 "Pablo Picasso",
                 "Juan Gris",
                 "Fernand Léger"
-            ]
+            ],
+            "correctAnswer": "Man Ray"
         },
         {
             "image": "assets/images/kafka_presse_2007.jpg",
@@ -636,7 +712,9 @@
             "field": "fotografie",
             "style": [
                 "fotografie"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Neznámý autor"
         },
         {
             "image": "assets/images/paintings-by-edouard-manet-1.jpg",
@@ -653,7 +731,9 @@
             "style": [
                 "impresionismus",
                 "realismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Édouard Manet"
         },
         {
             "image": "assets/images/paintings-by-henri-de-toulouse-lautrec-1.jpg",
@@ -670,7 +750,9 @@
             "style": [
                 "postimpresionismus",
                 "secese"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Henri de Toulouse-Lautrec"
         },
         {
             "image": "assets/images/paintings-by-paul-cezanne-4.jpg",
@@ -686,7 +768,9 @@
             "field": "malba",
             "style": [
                 "postimpresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Paul Cézanne"
         },
         {
             "image": "assets/images/roy_lichtenstein_gallery_4.jpg",
@@ -702,7 +786,9 @@
             "field": "malba",
             "style": [
                 "pop art"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Roy Lichtenstein"
         },
         {
             "image": "assets/images/vincent_van_gogh_16.jpg",
@@ -718,7 +804,9 @@
             "field": "malba",
             "style": [
                 "postimpresionismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Vincent van Gogh"
         },
         {
             "image": "assets/images/Girl_with...(portrét_Frederike_Höppner).JPG",
@@ -734,7 +822,9 @@
             "field": "malba",
             "style": [
                 "hyperrealismus"
-            ]
+            ],
+            "questionText": "Kdo je autorem tohoto díla?",
+            "correctAnswer": "Michal Ožibko"
         }
     ]
 }

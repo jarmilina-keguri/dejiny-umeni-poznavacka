@@ -34,9 +34,21 @@
                     <button id="add-new-btn" class="btn primary-btn full-width">Přidat novou otázku</button>
                 </div>
 
+                <div class="preview-panel" id="preview-panel" style="display: none;">
+                    <h2>Náhled obrázku</h2>
+                    <div class="large-image-preview">
+                        <img id="preview-img" src="" alt="Náhled">
+                    </div>
+                </div>
+
                 <div class="editor-panel" id="editor-panel" style="display: none;">
                     <h2 id="editor-title">Editace otázky</h2>
                     <form id="question-form">
+                        <div class="form-group">
+                            <label for="edit-question-text">Otázka:</label>
+                            <input type="text" id="edit-question-text" placeholder="Např. Kdo je autorem tohoto díla?">
+                        </div>
+
                         <div class="form-group">
                             <label for="title">Název díla:</label>
                             <input type="text" id="title" name="title" required>
@@ -65,19 +77,30 @@
                         <div class="form-group">
                             <label for="image">Cesta k obrázku:</label>
                             <input type="text" id="image" name="image" required>
-                            <div class="image-preview">
-                                <img id="preview-img" src="" alt="Náhled">
-                            </div>
                         </div>
 
                         <div class="form-group">
-                            <label>Možnosti (první je správná odpověď, automaticky se zamíchají):</label>
-                            <input type="text" id="option1" class="option-input" placeholder="Správná odpověď (Autor)"
-                                readonly>
-                            <input type="text" id="option2" class="option-input" placeholder="Možnost 2" required>
-                            <input type="text" id="option3" class="option-input" placeholder="Možnost 3" required>
-                            <input type="text" id="option4" class="option-input" placeholder="Možnost 4" required>
-                            <p class="hint">První možnost se automaticky vyplní podle autora.</p>
+                            <label>Možnosti (vyberte správnou odpověď):</label>
+                            <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                                <input type="radio" name="correct-option" value="0"
+                                    style="width: auto; margin-right: 0.5rem;">
+                                <input type="text" id="edit-option-0" placeholder="Možnost 1">
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                                <input type="radio" name="correct-option" value="1"
+                                    style="width: auto; margin-right: 0.5rem;">
+                                <input type="text" id="edit-option-1" placeholder="Možnost 2">
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                                <input type="radio" name="correct-option" value="2"
+                                    style="width: auto; margin-right: 0.5rem;">
+                                <input type="text" id="edit-option-2" placeholder="Možnost 3">
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                                <input type="radio" name="correct-option" value="3"
+                                    style="width: auto; margin-right: 0.5rem;">
+                                <input type="text" id="edit-option-3" placeholder="Možnost 4">
+                            </div>
                         </div>
 
                         <div class="form-actions">

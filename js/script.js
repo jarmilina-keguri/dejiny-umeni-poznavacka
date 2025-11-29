@@ -24,6 +24,8 @@ const questionCountInput = document.getElementById('question-count');
 const startBtn = document.getElementById('start-btn');
 const maxQuestionsHint = document.getElementById('max-questions-hint');
 
+const questionText = document.getElementById('question-text');
+
 function loadQuestion() {
     answered = false;
     const data = currentQuizData[currentQuestion];
@@ -33,6 +35,9 @@ function loadQuestion() {
     feedback.className = 'feedback';
     nextBtn.style.display = 'none';
     optionsContainer.innerHTML = '';
+
+    // Set question text
+    questionText.textContent = data.questionText || "Kdo je autorem tohoto díla?";
 
     // Load image
     quizImage.style.display = 'none';
@@ -70,22 +75,22 @@ function selectOption(selectedBtn, selectedOption) {
     answered = true;
 
     const data = currentQuizData[currentQuestion];
-    const correctAuthor = data.author;
+    const correctAnswer = data.correctAnswer || data.author; // Fallback for safety
 
-    if (selectedOption === correctAuthor) {
+    if (selectedOption === correctAnswer) {
         score++;
         selectedBtn.classList.add('correct');
         feedback.textContent = `Správně! ${data.title} (${data.year})`;
         feedback.style.color = 'var(--correct-color)';
     } else {
         selectedBtn.classList.add('wrong');
-        feedback.textContent = `Chyba. Správná odpověď je: ${correctAuthor} - ${data.title}`;
+        feedback.textContent = `Chyba. Správná odpověď je: ${correctAnswer} - ${data.title}`;
         feedback.style.color = 'var(--wrong-color)';
 
         // Highlight correct answer
         const buttons = optionsContainer.querySelectorAll('.option-btn');
         buttons.forEach(btn => {
-            if (btn.textContent === correctAuthor) {
+            if (btn.textContent === correctAnswer) {
                 btn.classList.add('correct');
             }
         });
