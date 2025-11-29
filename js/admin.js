@@ -114,9 +114,120 @@ cancelBtn.addEventListener('click', () => {
     previewPanel.style.display = 'none';
 });
 
-imageInput.addEventListener('input', () => {
-    previewImg.src = imageInput.value;
-});
+const suggestAnswersBtn = document.getElementById('suggest-answers-btn');
+suggestAnswersBtn.addEventListener('click', suggestAnswers);
+
+function suggestAnswers() {
+    const qText = questionTextInput.value.toLowerCase();
+    let targetType = 'author'; // Default
+
+    // 1. Detect Question Type
+    if (qText.includes('název') || qText.includes('jmenuje') || qText.includes('dílo')) {
+        targetType = 'title';
+    } else if (qText.includes('rok') || qText.includes('roce') || qText.includes('kdy')) {
+        targetType = 'year';
+    } else if (qText.includes('styl') || qText.includes('směr') || qText.includes('období')) {
+        targetType = 'style';
+    } else if (qText.includes('autor') || qText.includes('vytvořil') || qText.includes('namaloval')) {
+        targetType = 'author';
+    }
+
+    // 2. Get Correct Answer & Context
+    let correctAnswer = '';
+    let currentStyle = styleInput.value.split(',').map(s => s.trim().toLowerCase());
+
+    if (targetType === 'author') correctAnswer = authorInput.value;
+    else if (targetType === 'title') correctAnswer = titleInput.value;
+    else if (targetType === 'year') correctAnswer = yearInput.value;
+    else if (targetType === 'style') correctAnswer = styleInput.value; // Might need handling for multiple styles
+
+    if (!correctAnswer) {
+        alert("Prosím vyplňte nejprve správnou odpověď pro daný typ otázky (Autor, Název, Rok, atd.).");
+        return;
+    }
+
+    // 3. Generate Distractors
+    let distractors = [];
+
+    if (targetType === 'year') {
+        // Special handling for years - generate close numbers
+        const correctYearInt = parseInt(correctAnswer.replace(/[^0-9]/g, ''));
+        if (!isNaN(correctYearInt)) {
+            while (distractors.length < 3) {
+                // Generate random offset between +/- 10 and 60 years
+                const offset = (Math.floor(Math.random() * 50) + 10) * (Math.random() < 0.5 ? 1 : -1);
+                const distractor = (correctYearInt + offset).toString();
+                if (distractor !== correctAnswer && !distractors.includes(distractor)) {
+                    distractors.push(distractor);
+                }
+            }
+        } else {
+            // Fallback if year is text (e.g. "c. 1890") - pick random years from DB
+            const allYears = [...new Set(questions.map(q => q.year))];
+            distractors = getRandomDistractors(allYears, correctAnswer, 3);
+        }
+    } else {
+        // Standard handling for Text fields (Author, Title, Style)
+        let candidates = [];
+
+        if (targetType === 'author') {
+            // Context: Same style
+            candidates = questions
+                .filter(q => q.style.some(s => currentStyle.includes(s.toLowerCase())))
+                .map(q => q.author);
+
+            // If not enough, add all authors
+            if (candidates.length < 3) {
+                candidates = [...candidates, ...questions.map(q => q.author)];
+            }
+        } else if (targetType === 'title') {
+            // Context: Same style
+            candidates = questions
+                .filter(q => q.style.some(s => currentStyle.includes(s.toLowerCase())))
+                .map(q => q.title);
+
+            // If not enough, add all titles
+            if (candidates.length < 10) {
+                candidates = [...candidates, ...questions.map(q => q.title)];
+            }
+        } else if (targetType === 'style') {
+            // Flatten all styles
+            candidates = questions.flatMap(q => q.style);
+        }
+
+        // Unique and filter correct
+        candidates = [...new Set(candidates)];
+        distractors = getRandomDistractors(candidates, correctAnswer, 3);
+    }
+
+    // 4. Populate UI
+    const allOptions = [correctAnswer, ...distractors];
+    shuffleArray(allOptions);
+
+    optionInputs.forEach((input, i) => {
+        if (allOptions[i]) {
+            input.value = allOptions[i];
+            if (allOptions[i] === correctAnswer) {
+                correctOptionRadios[i].checked = true;
+            }
+        } else {
+            input.value = ""; // Should not happen if we have data
+        }
+    });
+}
+
+function getRandomDistractors(pool, correct, count) {
+    const validPool = pool.filter(item => item !== correct && item); // Filter correct and empty
+    const shuffled = [...validPool].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 questionForm.addEventListener('submit', (e) => {
     e.preventDefault();
