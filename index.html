@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poznávačka: Český kubismus</title>
+    <title>Poznávačka: Dějiny umění</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +20,37 @@
 
     <div class="container">
         <header>
-            <h1>Český kubismus</h1>
-            <p>Poznávačka děl</p>
+            <h1>Dějiny umění</h1>
+            <p>Poznávačka</p>
         </header>
 
-        <main id="quiz-container">
+        <main id="setup-container">
+            <h2>Nastavení kvízu</h2>
+
+            <div class="setup-group">
+                <label for="question-count">Počet otázek:</label>
+                <input type="number" id="question-count" min="1" value="5">
+                <span id="max-questions-hint" class="hint"></span>
+            </div>
+
+            <div class="setup-group">
+                <p>Vyberte obor:</p>
+                <div id="fields-container" class="tags-selection">
+                    <!-- Checkboxes will be generated here -->
+                </div>
+            </div>
+
+            <div class="setup-group">
+                <p>Vyberte styl:</p>
+                <div id="styles-container" class="tags-selection">
+                    <!-- Checkboxes will be generated here -->
+                </div>
+            </div>
+
+            <button id="start-btn" class="btn primary-btn">Spustit kvíz</button>
+        </main>
+
+        <main id="quiz-container" style="display: none;">
             <div class="progress-bar">
                 <div class="progress" id="progress"></div>
             </div>
@@ -32,7 +58,7 @@
             <div class="card">
                 <div class="image-container">
                     <div class="loading-spinner" id="loading"></div>
-                    <img id="quiz-image" src="" alt="Dílo českého kubismu" style="display: none;">
+                    <img id="quiz-image" src="" alt="Dílo" style="display: none;">
                 </div>
 
                 <div class="options-container" id="options">
@@ -52,6 +78,7 @@
         </div>
     </div>
 
+    <script src="js/questions.js"></script>
     <script src="js/script.js"></script>
 </body>
 

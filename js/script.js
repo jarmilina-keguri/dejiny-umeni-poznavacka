@@ -1,44 +1,9 @@
-const quizData = [
-    {
-        image: "assets/images/house_of_the_black_madonna.jpg",
-        title: "Dům U Černé Matky Boží",
-        author: "Josef Gočár",
-        year: "1911–1912",
-        options: ["Josef Gočár", "Pavel Janák", "Josef Chochol", "Emil Králíček"]
-    },
-    {
-        image: "assets/images/electric_lamp_cubist.jpg",
-        title: "Kubistická lampa",
-        author: "Emil Králíček",
-        year: "1913",
-        options: ["Emil Králíček", "Josef Gočár", "Vlastislav Hofman", "Otakar Novotný"]
-    },
-    {
-        image: "assets/images/cubist_coffee_set.jpg",
-        title: "Kávový servis",
-        author: "Pavel Janák",
-        year: "1911",
-        options: ["Pavel Janák", "Josef Gočár", "Rudolf Stockar", "Ladislav Sutnar"]
-    },
-    {
-        image: "assets/images/cubist_painting_capek.jpg",
-        title: "Piják",
-        author: "Josef Čapek",
-        year: "1913",
-        options: ["Josef Čapek", "Emil Filla", "Bohumil Kubišta", "Antonín Procházka"]
-    },
-    {
-        image: "assets/images/cubist_spa_gocar.jpg",
-        title: "Lázeňský dům v Bohdanči",
-        author: "Josef Gočár",
-        year: "1913",
-        options: ["Josef Gočár", "Pavel Janák", "Vlastislav Hofman", "Otakar Novotný"]
-    }
-];
+
 
 let currentQuestion = 0;
 let score = 0;
 let answered = false;
+let currentQuizData = [];
 
 const quizImage = document.getElementById('quiz-image');
 const optionsContainer = document.getElementById('options');
@@ -51,9 +16,16 @@ const scoreText = document.getElementById('score-text');
 const restartBtn = document.getElementById('restart-btn');
 const loadingSpinner = document.getElementById('loading');
 
+const setupContainer = document.getElementById('setup-container');
+const fieldsContainer = document.getElementById('fields-container');
+const stylesContainer = document.getElementById('styles-container');
+const questionCountInput = document.getElementById('question-count');
+const startBtn = document.getElementById('start-btn');
+const maxQuestionsHint = document.getElementById('max-questions-hint');
+
 function loadQuestion() {
     answered = false;
-    const data = quizData[currentQuestion];
+    const data = currentQuizData[currentQuestion];
 
     // Reset UI
     feedback.textContent = '';
@@ -96,7 +68,7 @@ function selectOption(selectedBtn, selectedOption) {
     if (answered) return;
     answered = true;
 
-    const data = quizData[currentQuestion];
+    const data = currentQuizData[currentQuestion];
     const correctAuthor = data.author;
 
     if (selectedOption === correctAuthor) {
@@ -122,13 +94,13 @@ function selectOption(selectedBtn, selectedOption) {
 }
 
 function updateProgress() {
-    const progress = ((currentQuestion) / quizData.length) * 100;
+    const progress = ((currentQuestion) / currentQuizData.length) * 100;
     progressBar.style.width = `${progress}%`;
 }
 
 nextBtn.addEventListener('click', () => {
     currentQuestion++;
-    if (currentQuestion < quizData.length) {
+    if (currentQuestion < currentQuizData.length) {
         loadQuestion();
     } else {
         showResults();
@@ -138,15 +110,16 @@ nextBtn.addEventListener('click', () => {
 function showResults() {
     quizContainer.style.display = 'none';
     resultContainer.style.display = 'block';
-    scoreText.textContent = `Získal jsi ${score} z ${quizData.length} bodů.`;
+    scoreText.textContent = `Získal jsi ${score} z ${currentQuizData.length} bodů.`;
 }
 
 restartBtn.addEventListener('click', () => {
     currentQuestion = 0;
     score = 0;
-    quizContainer.style.display = 'block';
+    setupContainer.style.display = 'block';
+    quizContainer.style.display = 'none';
     resultContainer.style.display = 'none';
-    loadQuestion();
+    initSetup();
 });
 
 function shuffleArray(array) {
@@ -157,4 +130,109 @@ function shuffleArray(array) {
 }
 
 // Initialize
-loadQuestion();
+document.addEventListener('DOMContentLoaded', () => {
+    initSetup();
+});
+
+function initSetup() {
+    // Extract unique fields and styles
+    const allFields = new Set();
+    const allStyles = new Set();
+
+    quizData.forEach(item => {
+        if (item.field) allFields.add(item.field);
+        if (item.style) item.style.forEach(s => allStyles.add(s));
+    });
+
+    // Populate Fields
+    fieldsContainer.innerHTML = '';
+    allFields.forEach(field => {
+        createCheckbox(field, fieldsContainer);
+    });
+
+    // Populate Styles
+    stylesContainer.innerHTML = '';
+    allStyles.forEach(style => {
+        createCheckbox(style, stylesContainer);
+    });
+
+    updateMaxQuestions();
+}
+
+function createCheckbox(value, container) {
+    const label = document.createElement('label');
+    label.className = 'tag-label';
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.value = value;
+    checkbox.checked = false; // Default unchecked
+    checkbox.addEventListener('change', updateMaxQuestions);
+
+    label.appendChild(checkbox);
+    label.appendChild(document.createTextNode(` ${value}`));
+    container.appendChild(label);
+}
+
+function updateMaxQuestions() {
+    const selectedFields = Array.from(fieldsContainer.querySelectorAll('input:checked')).map(cb => cb.value);
+    const selectedStyles = Array.from(stylesContainer.querySelectorAll('input:checked')).map(cb => cb.value);
+
+    const filteredCount = quizData.filter(item => {
+        const fieldMatch = selectedFields.length === 0 || selectedFields.includes(item.field);
+        const styleMatch = selectedStyles.length === 0 || (item.style && item.style.some(s => selectedStyles.includes(s)));
+
+        // Only count if user selected AT LEAST one from each category (if we want strict enforcement)
+        // Or, if we want to allow "any field" if none selected? 
+        // User said: "při zadávání parametrů kvízu si vždy vybírám kromě počtu otázek z množiny oborů a z množiny stylů"
+        // This implies they MUST select something.
+
+        const hasFieldSelection = selectedFields.length > 0;
+        const hasStyleSelection = selectedStyles.length > 0;
+
+        if (!hasFieldSelection || !hasStyleSelection) return false;
+
+        return fieldMatch && styleMatch;
+    }).length;
+
+    questionCountInput.max = filteredCount;
+    questionCountInput.value = Math.min(questionCountInput.value, filteredCount);
+    maxQuestionsHint.textContent = `(Dostupných: ${filteredCount})`;
+
+    if (filteredCount === 0) {
+        startBtn.disabled = true;
+    } else {
+        startBtn.disabled = false;
+    }
+}
+
+startBtn.addEventListener('click', () => {
+    const selectedFields = Array.from(fieldsContainer.querySelectorAll('input:checked')).map(cb => cb.value);
+    const selectedStyles = Array.from(stylesContainer.querySelectorAll('input:checked')).map(cb => cb.value);
+    const requestedCount = parseInt(questionCountInput.value);
+
+    // Filter data
+    let filteredData = quizData.filter(item => {
+        const fieldMatch = selectedFields.includes(item.field);
+        const styleMatch = item.style && item.style.some(s => selectedStyles.includes(s));
+        return fieldMatch && styleMatch;
+    });
+
+    // Shuffle filtered data
+    shuffleArray(filteredData);
+
+    // Slice to requested count
+    currentQuizData = filteredData.slice(0, requestedCount);
+
+    if (currentQuizData.length === 0) {
+        alert("Žádné otázky neodpovídají výběru.");
+        return;
+    }
+
+    // Start quiz
+    currentQuestion = 0;
+    score = 0;
+    setupContainer.style.display = 'none';
+    quizContainer.style.display = 'block';
+    loadQuestion();
+});
