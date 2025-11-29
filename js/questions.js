@@ -70,5 +70,338 @@ const quizData = [
         options: ["Salvador Dalí", "René Magritte", "Max Ernst", "Joan Miró"],
         field: "malba",
         style: ["surrealismus"]
+    },
+    {
+        image: "assets/images/1844_turner_rain_steam_speed.jpg",
+        title: "Déšť, pára a rychlost",
+        author: "J. M. W. Turner",
+        year: "1844",
+        options: ["J. M. W. Turner", "John Constable", "Caspar David Friedrich", "William Blake"],
+        field: "malba",
+        style: ["romantismus"]
+    },
+    {
+        image: "assets/images/1893_Edvard_Munch_The_Scream-WR400.jpg",
+        title: "Výkřik",
+        author: "Edvard Munch",
+        year: "1893",
+        options: ["Edvard Munch", "Egon Schiele", "Gustav Klimt", "Oskar Kokoschka"],
+        field: "malba",
+        style: ["expresionismus"]
+    },
+    {
+        image: "assets/images/407HS0209-obraz-vaza-s-15-slunecnicemi.jpeg",
+        title: "Slunečnice",
+        author: "Vincent van Gogh",
+        year: "1888",
+        options: ["Vincent van Gogh", "Paul Gauguin", "Paul Cézanne", "Claude Monet"],
+        field: "malba",
+        style: ["postimpresionismus"]
+    },
+    {
+        image: "assets/images/46.PabloPicasso-Guernica-1937.jpg",
+        title: "Guernica",
+        author: "Pablo Picasso",
+        year: "1937",
+        options: ["Pablo Picasso", "Georges Braque", "Salvador Dalí", "Joan Miró"],
+        field: "malba",
+        style: ["kubismus", "surrealismus"]
+    },
+    {
+        image: "assets/images/584px-Bohumil_kubista_Hypnotiser.jpg",
+        title: "Hypnotizér",
+        author: "Bohumil Kubišta",
+        year: "1912",
+        options: ["Bohumil Kubišta", "Emil Filla", "Josef Čapek", "Antonín Procházka"],
+        field: "malba",
+        style: ["český kubismus", "kubismus", "expresionismus"]
+    },
+    {
+        image: "assets/images/800px-Jasper_Johns's_'Map',_1961.jpg",
+        title: "Mapa",
+        author: "Jasper Johns",
+        year: "1961",
+        options: ["Jasper Johns", "Robert Rauschenberg", "Andy Warhol", "Roy Lichtenstein"],
+        field: "malba",
+        style: ["neo-dada", "pop art"]
+    },
+    {
+        image: "assets/images/GALERIE_063_FRANTISEK_KUPKA_DVOUBAREVNA_FUGA.jpg",
+        title: "Dvoubarevná fuga",
+        author: "František Kupka",
+        year: "1912",
+        options: ["František Kupka", "Vasilij Kandinskij", "Piet Mondrian", "Robert Delaunay"],
+        field: "malba",
+        style: ["abstrakce", "orfismus"]
+    },
+    {
+        image: "assets/images/Gauguin_Tahitian_Women_-_On_the_Beach_1891.jpg",
+        title: "Tahiťanky na pláži",
+        author: "Paul Gauguin",
+        year: "1891",
+        options: ["Paul Gauguin", "Vincent van Gogh", "Paul Cézanne", "Henri Rousseau"],
+        field: "malba",
+        style: ["postimpresionismus"]
+    },
+    {
+        image: "assets/images/Henri Matisse - Hudba 1939.JPG",
+        title: "Hudba",
+        author: "Henri Matisse",
+        year: "1939",
+        options: ["Henri Matisse", "André Derain", "Maurice de Vlaminck", "Raoul Dufy"],
+        field: "malba",
+        style: ["fauvismus"]
+    },
+    {
+        image: "assets/images/braque_zena_s_mandolinou127.jpg",
+        title: "Žena s mandolínou",
+        author: "Georges Braque",
+        year: "1910",
+        options: ["Georges Braque", "Pablo Picasso", "Juan Gris", "Fernand Léger"],
+        field: "malba",
+        style: ["kubismus"]
+    },
+    {
+        image: "assets/images/duchamp_fontana.jpg",
+        title: "Fontána",
+        author: "Marcel Duchamp",
+        year: "1917",
+        options: ["Marcel Duchamp", "Man Ray", "Francis Picabia", "Kurt Schwitters"],
+        field: "sochařství",
+        style: ["dadaismus"]
+    },
+    {
+        image: "assets/images/g_landart_2.jpg",
+        title: "Spirálové molo",
+        author: "Robert Smithson",
+        year: "1970",
+        options: ["Robert Smithson", "Michael Heizer", "Walter De Maria", "Richard Long"],
+        field: "land art",
+        style: ["land art"]
+    },
+    {
+        image: "assets/images/gauguin-yellow christ.jpg",
+        title: "Žlutý Kristus",
+        author: "Paul Gauguin",
+        year: "1889",
+        options: ["Paul Gauguin", "Émile Bernard", "Paul Sérusier", "Vincent van Gogh"],
+        field: "malba",
+        style: ["postimpresionismus", "syntetismus"]
+    },
+    {
+        image: "assets/images/gogh-hvezdne_nebe.jpg",
+        title: "Hvězdná noc",
+        author: "Vincent van Gogh",
+        year: "1889",
+        options: ["Vincent van Gogh", "Edvard Munch", "Paul Gauguin", "Georges Seurat"],
+        field: "malba",
+        style: ["postimpresionismus"]
+    },
+    {
+        image: "assets/images/golconde.jpg",
+        title: "Golkonda",
+        author: "René Magritte",
+        year: "1953",
+        options: ["René Magritte", "Salvador Dalí", "Max Ernst", "Yves Tanguy"],
+        field: "malba",
+        style: ["surrealismus"]
+    },
+    {
+        image: "assets/images/olympia.jpg",
+        title: "Olympia",
+        author: "Édouard Manet",
+        year: "1863",
+        options: ["Édouard Manet", "Claude Monet", "Pierre-Auguste Renoir", "Edgar Degas"],
+        field: "malba",
+        style: ["realismus", "impresionismus"]
+    },
+    {
+        image: "assets/images/the_persistence_of_memory_1931_salvador_dali.jpg",
+        title: "Persistence paměti",
+        author: "Salvador Dalí",
+        year: "1931",
+        options: ["Salvador Dalí", "René Magritte", "Joan Miró", "Giorgio de Chirico"],
+        field: "malba",
+        style: ["surrealismus"]
+    },
+    {
+        image: "assets/images/toyen_slumberingwoman.jpg",
+        title: "Spící",
+        author: "Toyen",
+        year: "1937",
+        options: ["Toyen", "Jindřich Štyrský", "Josef Šíma", "Karel Teige"],
+        field: "malba",
+        style: ["surrealismus"]
+    },
+    {
+        image: "assets/images/nude_in_the_sunlight.JPG",
+        title: "Akt na slunci",
+        author: "Pierre-Auguste Renoir",
+        year: "1876",
+        options: ["Pierre-Auguste Renoir", "Claude Monet", "Edgar Degas", "Édouard Manet"],
+        field: "malba",
+        style: ["impresionismus"]
+    },
+    {
+        image: "assets/images/Cezanne.jpg",
+        title: "Košík s jablky",
+        author: "Paul Cézanne",
+        year: "c. 1893",
+        options: ["Paul Cézanne", "Vincent van Gogh", "Henri Matisse", "Pablo Picasso"],
+        field: "malba",
+        style: ["postimpresionismus"]
+    },
+    {
+        image: "assets/images/Franz_Marc.jpg",
+        title: "Věž modrých koní",
+        author: "Franz Marc",
+        year: "1913",
+        options: ["Franz Marc", "August Macke", "Wassily Kandinsky", "Paul Klee"],
+        field: "malba",
+        style: ["expresionismus"]
+    },
+    {
+        image: "assets/images/artwork_images_424143444_356806_rene-magritte.jpg",
+        title: "Milenci",
+        author: "René Magritte",
+        year: "1928",
+        options: ["René Magritte", "Salvador Dalí", "Max Ernst", "Giorgio de Chirico"],
+        field: "malba",
+        style: ["surrealismus"]
+    },
+    {
+        image: "assets/images/artwork_images_588_378278_victor-vasarely.jpg",
+        title: "Vega",
+        author: "Victor Vasarely",
+        year: "1957",
+        options: ["Victor Vasarely", "Bridget Riley", "Josef Albers", "Frank Stella"],
+        field: "malba",
+        style: ["op art"]
+    },
+    {
+        image: "assets/images/505.jpg",
+        title: "Dívka s perlou",
+        author: "Johannes Vermeer",
+        year: "c. 1665",
+        options: ["Johannes Vermeer", "Rembrandt van Rijn", "Frans Hals", "Jan Steen"],
+        field: "malba",
+        style: ["baroko"]
+    },
+    {
+        image: "assets/images/6a00d8341bfd7f53ef00e551bb420c8834-640wi.jpg",
+        title: "Bez názvu",
+        author: "Keith Haring",
+        year: "1982",
+        options: ["Keith Haring", "Jean-Michel Basquiat", "Andy Warhol", "Banksy"],
+        field: "malba",
+        style: ["pop art", "graffiti"]
+    },
+    {
+        image: "assets/images/andy-warhol-effect-all.jpg",
+        title: "Marilyn Monroe",
+        author: "Andy Warhol",
+        year: "1967",
+        options: ["Andy Warhol", "Roy Lichtenstein", "Jasper Johns", "Robert Rauschenberg"],
+        field: "malba",
+        style: ["pop art"]
+    },
+    {
+        image: "assets/images/art00528.jpg",
+        title: "Polibek",
+        author: "Gustav Klimt",
+        year: "1907–1908",
+        options: ["Gustav Klimt", "Egon Schiele", "Alfons Mucha", "Oskar Kokoschka"],
+        field: "malba",
+        style: ["secese"]
+    },
+    {
+        image: "assets/images/b969.jpg",
+        title: "Velká vlna u Kanagawy",
+        author: "Kacušika Hokusai",
+        year: "c. 1831",
+        options: ["Kacušika Hokusai", "Utagawa Hirošige", "Kitagawa Utamaro", "Tošúsai Šaraku"],
+        field: "grafika",
+        style: ["ukiyo-e"]
+    },
+    {
+        image: "assets/images/hadanka.jpg",
+        title: "Americká gotika",
+        author: "Grant Wood",
+        year: "1930",
+        options: ["Grant Wood", "Edward Hopper", "Andrew Wyeth", "Thomas Hart Benton"],
+        field: "malba",
+        style: ["regionalismus"]
+    },
+    {
+        image: "assets/images/hudebni_nastroj.jpg",
+        title: "Housle a džbán",
+        author: "Georges Braque",
+        year: "1910",
+        options: ["Georges Braque", "Pablo Picasso", "Juan Gris", "Fernand Léger"],
+        field: "malba",
+        style: ["kubismus"]
+    },
+    {
+        image: "assets/images/kafka_presse_2007.jpg",
+        title: "Franz Kafka",
+        author: "Neznámý autor",
+        year: "1906",
+        options: ["Franz Kafka", "Max Brod", "Rainer Maria Rilke", "Gustav Meyrink"],
+        field: "fotografie",
+        style: ["fotografie"]
+    },
+    {
+        image: "assets/images/paintings-by-edouard-manet-1.jpg",
+        title: "Bar ve Folies-Bergère",
+        author: "Édouard Manet",
+        year: "1882",
+        options: ["Édouard Manet", "Claude Monet", "Pierre-Auguste Renoir", "Edgar Degas"],
+        field: "malba",
+        style: ["impresionismus", "realismus"]
+    },
+    {
+        image: "assets/images/paintings-by-henri-de-toulouse-lautrec-1.jpg",
+        title: "V Moulin Rouge",
+        author: "Henri de Toulouse-Lautrec",
+        year: "1892",
+        options: ["Henri de Toulouse-Lautrec", "Vincent van Gogh", "Paul Gauguin", "Edgar Degas"],
+        field: "malba",
+        style: ["postimpresionismus", "secese"]
+    },
+    {
+        image: "assets/images/paintings-by-paul-cezanne-4.jpg",
+        title: "Hráči karet",
+        author: "Paul Cézanne",
+        year: "1890–1895",
+        options: ["Paul Cézanne", "Vincent van Gogh", "Paul Gauguin", "Édouard Manet"],
+        field: "malba",
+        style: ["postimpresionismus"]
+    },
+    {
+        image: "assets/images/roy_lichtenstein_gallery_4.jpg",
+        title: "Whaam!",
+        author: "Roy Lichtenstein",
+        year: "1963",
+        options: ["Roy Lichtenstein", "Andy Warhol", "Jasper Johns", "Claes Oldenburg"],
+        field: "malba",
+        style: ["pop art"]
+    },
+    {
+        image: "assets/images/vincent_van_gogh_16.jpg",
+        title: "Autoportrét",
+        author: "Vincent van Gogh",
+        year: "1887",
+        options: ["Vincent van Gogh", "Paul Gauguin", "Paul Cézanne", "Henri de Toulouse-Lautrec"],
+        field: "malba",
+        style: ["postimpresionismus"]
+    },
+    {
+        image: "assets/images/Girl_with...(portrét_Frederike_Höppner).JPG",
+        title: "Dívka s...",
+        author: "Michal Ožibko",
+        year: "2004",
+        options: ["Michal Ožibko", "Zdeněk Sýkora", "Theodor Pištěk", "Karel Nepraš"],
+        field: "malba",
+        style: ["hyperrealismus"]
     }
 ];
