@@ -12,75 +12,72 @@
 </head>
 
 <body>
-    <a href="admin.html" class="btn secondary-btn admin-corner-btn">Administrace</a>
-    <div class="background-shapes">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-    </div>
-
-    <div class="container">
-        <header>
-            <h1>Dějiny umění</h1>
-            <p>Poznávačka</p>
+    <div class="app-layout">
+        <header class="fixed-header">
+            <div class="header-content">
+                <div class="title-section">
+                    <h1>Dějiny umění</h1>
+                    <p>Poznávačka</p>
+                </div>
+                <div class="action-bar">
+                    <button id="start-btn" class="btn primary-btn" disabled>Spustit kvíz</button>
+                    <a href="admin.html" class="btn secondary-btn">Administrace</a>
+                </div>
+            </div>
         </header>
 
-        <main id="setup-container">
-            <h2>Nastavení kvízu</h2>
-
-            <div class="setup-top-row">
-                <div class="setup-group question-count-group">
-                    <label for="question-count">Počet otázek:</label>
-                    <input type="number" id="question-count" min="1" value="5">
-                    <span id="max-questions-hint" class="hint"></span>
-                </div>
-
-                <div class="setup-group fields-group">
-                    <p>Vyberte obor:</p>
-                    <div id="fields-container" class="tags-selection">
-                        <!-- Checkboxes will be generated here -->
+        <div class="scrollable-content">
+            <div class="container">
+                <main id="setup-container">
+                    <div class="setup-group question-count-group">
+                        <label for="question-count">Počet otázek:</label>
+                        <input type="number" id="question-count" min="1" value="5">
+                        <span id="max-questions-hint" class="hint"></span>
                     </div>
-                </div>
 
-                <div class="setup-group start-btn-group">
-                    <button id="start-btn" class="btn primary-btn" disabled>Spustit kvíz</button>
+                    <div class="setup-group fields-group">
+                        <p>Vyberte obor:</p>
+                        <div id="fields-container" class="tags-selection">
+                            <!-- Checkboxes will be generated here -->
+                        </div>
+                    </div>
+
+                    <div class="setup-group styles-group">
+                        <p>Vyberte styl:</p>
+                        <div id="styles-container" class="tags-selection">
+                            <!-- Checkboxes will be generated here -->
+                        </div>
+                    </div>
+                </main>
+
+                <main id="quiz-container" style="display: none;">
+                    <div class="progress-bar">
+                        <div class="progress" id="progress"></div>
+                    </div>
+
+                    <div class="card">
+                        <h3 id="question-text" style="margin-bottom: 1rem; text-align: center;"></h3>
+                        <div class="image-container">
+                            <div class="loading-spinner" id="loading"></div>
+                            <img id="quiz-image" src="" alt="Dílo" style="display: none;">
+                        </div>
+
+                        <div class="options-container" id="options">
+                            <!-- Options will be generated here -->
+                        </div>
+
+                        <div class="feedback" id="feedback"></div>
+
+                        <button id="next-btn" class="btn primary-btn" style="display: none;">Další dílo</button>
+                    </div>
+                </main>
+
+                <div id="result-container" style="display: none;">
+                    <h2>Výsledek</h2>
+                    <p id="score-text"></p>
+                    <button id="restart-btn" class="btn secondary-btn">Začít znovu</button>
                 </div>
             </div>
-
-            <div class="setup-group styles-group">
-                <p>Vyberte styl:</p>
-                <div id="styles-container" class="tags-selection">
-                    <!-- Checkboxes will be generated here -->
-                </div>
-            </div>
-        </main>
-
-        <main id="quiz-container" style="display: none;">
-            <div class="progress-bar">
-                <div class="progress" id="progress"></div>
-            </div>
-
-            <div class="card">
-                <h3 id="question-text" style="margin-bottom: 1rem; text-align: center;"></h3>
-                <div class="image-container">
-                    <div class="loading-spinner" id="loading"></div>
-                    <img id="quiz-image" src="" alt="Dílo" style="display: none;">
-                </div>
-
-                <div class="options-container" id="options">
-                    <!-- Options will be generated here -->
-                </div>
-
-                <div class="feedback" id="feedback"></div>
-
-                <button id="next-btn" class="btn primary-btn" style="display: none;">Další dílo</button>
-            </div>
-        </main>
-
-        <div id="result-container" style="display: none;">
-            <h2>Výsledek</h2>
-            <p id="score-text"></p>
-            <button id="restart-btn" class="btn secondary-btn">Začít znovu</button>
         </div>
     </div>
 
