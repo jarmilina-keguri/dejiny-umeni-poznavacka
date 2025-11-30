@@ -28,27 +28,31 @@
         <main id="setup-container">
             <h2>Nastavení kvízu</h2>
 
-            <div class="setup-group">
-                <label for="question-count">Počet otázek:</label>
-                <input type="number" id="question-count" min="1" value="5">
-                <span id="max-questions-hint" class="hint"></span>
-            </div>
+            <div class="setup-top-row">
+                <div class="setup-group question-count-group">
+                    <label for="question-count">Počet otázek:</label>
+                    <input type="number" id="question-count" min="1" value="5">
+                    <span id="max-questions-hint" class="hint"></span>
+                </div>
 
-            <div class="setup-group">
-                <p>Vyberte obor:</p>
-                <div id="fields-container" class="tags-selection">
-                    <!-- Checkboxes will be generated here -->
+                <div class="setup-group fields-group">
+                    <p>Vyberte obor:</p>
+                    <div id="fields-container" class="tags-selection">
+                        <!-- Checkboxes will be generated here -->
+                    </div>
+                </div>
+
+                <div class="setup-group start-btn-group">
+                    <button id="start-btn" class="btn primary-btn" disabled>Spustit kvíz</button>
                 </div>
             </div>
 
-            <div class="setup-group">
+            <div class="setup-group styles-group">
                 <p>Vyberte styl:</p>
                 <div id="styles-container" class="tags-selection">
                     <!-- Checkboxes will be generated here -->
                 </div>
             </div>
-
-            <button id="start-btn" class="btn primary-btn" disabled>Spustit kvíz</button>
         </main>
 
         <main id="quiz-container" style="display: none;">

@@ -181,7 +181,7 @@ function createCheckbox(value, container) {
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.value = value;
-    checkbox.checked = false; // Default unchecked
+    checkbox.checked = true; // Default checked
     checkbox.addEventListener('change', updateMaxQuestions);
 
     label.appendChild(checkbox);
