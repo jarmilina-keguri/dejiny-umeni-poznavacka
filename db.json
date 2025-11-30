@@ -1,22 +1,22 @@
 {
     "questions": [
         {
-            "image": "assets/images/house_of_the_black_madonna.jpg",
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/house_of_the_black_madonna_c.jpg",
             "title": "Dům U Černé Matky Boží",
             "author": "Josef Gočár",
             "year": "1911-1912",
+            "field": "architektura",
+            "style": [
+                "český kubismus",
+                "kubismus"
+            ],
             "options": [
                 "Josef Gočár",
                 "Pavel Janák",
                 "Josef Chochol",
                 "Emil Králíček"
             ],
-            "field": "architektura",
-            "style": [
-                "český kubismus",
-                "kubismus"
-            ],
-            "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Josef Gočár"
         },
         {
@@ -536,77 +536,76 @@
             "correctAnswer": "Franz Marc"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/artwork_images_424143444_356806_rene-magritte.jpg",
-            "title": "Milenci",
+            "title": "Syn člověka",
             "author": "René Magritte",
-            "year": "1928",
-            "options": [
-                "René Magritte",
-                "Salvador Dalí",
-                "Max Ernst",
-                "Giorgio de Chirico"
-            ],
+            "year": "1964",
             "field": "malba",
             "style": [
                 "surrealismus"
             ],
-            "questionText": "Kdo je autorem tohoto díla?",
+            "options": [
+                "René Magritte",
+                "Salvador Dalí",
+                "Pablo Picasso",
+                "Man Ray"
+            ],
             "correctAnswer": "René Magritte"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/artwork_images_588_378278_victor-vasarely.jpg",
-            "title": "Vega",
+            "title": "Bi-Vega",
             "author": "Victor Vasarely",
-            "year": "1957",
+            "year": "1975",
+            "field": "malba",
+            "style": [
+                "op art"
+            ],
             "options": [
                 "Victor Vasarely",
                 "Bridget Riley",
                 "Josef Albers",
                 "Frank Stella"
             ],
-            "field": "malba",
-            "style": [
-                "op art"
-            ],
-            "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Victor Vasarely"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/505.jpg",
-            "title": "Dívka s perlou",
-            "author": "Johannes Vermeer",
-            "year": "c. 1665",
-            "options": [
-                "Johannes Vermeer",
-                "Rembrandt van Rijn",
-                "Frans Hals",
-                "Jan Steen"
-            ],
+            "title": "Hvězda",
+            "author": "Edgar Degas",
+            "year": "1876 - 1877",
             "field": "malba",
             "style": [
-                "baroko"
+                "impresionismus"
             ],
-            "questionText": "Kdo je autorem tohoto díla?",
-            "correctAnswer": "Johannes Vermeer"
+            "options": [
+                "Henri de Toulouse-Lautrec",
+                "Édouard Manet",
+                "Edgar Degas",
+                "Pierre-Auguste Renoir"
+            ],
+            "correctAnswer": "Edgar Degas"
         },
         {
-            "image": "assets/images/6a00d8341bfd7f53ef00e551bb420c8834-640wi.jpg",
-            "title": "Bez názvu",
-            "author": "Keith Haring",
-            "year": "1982",
-            "options": [
-                "Keith Haring",
-                "Jean-Michel Basquiat",
-                "Andy Warhol",
-                "Banksy"
-            ],
-            "field": "malba",
-            "style": [
-                "pop art",
-                "graffiti"
-            ],
             "questionText": "Kdo je autorem tohoto díla?",
-            "correctAnswer": "Keith Haring"
+            "image": "assets/images/6a00d8341bfd7f53ef00e551bb420c8834-640wi.jpg",
+            "title": "Bez názvuHlava dítěte",
+            "author": "Ron Mueck",
+            "year": "2003",
+            "field": "sochařství",
+            "style": [
+                "hyperrealismus"
+            ],
+            "options": [
+                "Ron Mueck",
+                "Georges Seurat",
+                "Roy Lichtenstein",
+                "Michal Ožibko"
+            ],
+            "correctAnswer": "Ron Mueck"
         },
         {
             "image": "assets/images/andy-warhol-effect-all.jpg",
@@ -627,58 +626,58 @@
             "correctAnswer": "Andy Warhol"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/art00528.jpg",
-            "title": "Polibek",
-            "author": "Gustav Klimt",
-            "year": "1907-1908",
-            "options": [
-                "Gustav Klimt",
-                "Egon Schiele",
-                "Alfons Mucha",
-                "Oskar Kokoschka"
-            ],
+            "title": "Sweet dreams, baby!",
+            "author": "Roy Lichtenstein",
+            "year": "1965",
             "field": "malba",
             "style": [
-                "secese"
+                "pop-art"
             ],
-            "questionText": "Kdo je autorem tohoto díla?",
-            "correctAnswer": "Gustav Klimt"
+            "options": [
+                "Andy Warhol",
+                "Henri Matisse",
+                "Roy Lichtenstein",
+                "Franz Marc"
+            ],
+            "correctAnswer": "Roy Lichtenstein"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/b969.jpg",
-            "title": "Velká vlna u Kanagawy",
-            "author": "Kacušika Hokusai",
-            "year": "c. 1831",
-            "options": [
-                "Kacušika Hokusai",
-                "Utagawa Hirošige",
-                "Kitagawa Utamaro",
-                "Tošúsai Šaraku"
-            ],
-            "field": "grafika",
-            "style": [
-                "ukiyo-e"
-            ],
-            "questionText": "Kdo je autorem tohoto díla?",
-            "correctAnswer": "Kacušika Hokusai"
-        },
-        {
-            "image": "assets/images/hadanka.jpg",
-            "title": "Americká gotika",
-            "author": "Grant Wood",
-            "year": "1930",
-            "options": [
-                "Grant Wood",
-                "Edward Hopper",
-                "Andrew Wyeth",
-                "Thomas Hart Benton"
-            ],
+            "title": "Zebra",
+            "author": "Victor Vasarely",
+            "year": "1937",
             "field": "malba",
             "style": [
-                "regionalismus"
+                "op-art"
             ],
+            "options": [
+                "René Magritte",
+                "Man Ray",
+                "Victor Vasarely",
+                "Bridget Riley"
+            ],
+            "correctAnswer": "Victor Vasarely"
+        },
+        {
             "questionText": "Kdo je autorem tohoto díla?",
-            "correctAnswer": "Grant Wood"
+            "image": "assets/images/hadanka.jpg",
+            "title": "Nedělní odpoledne na ostrově Grande Jatte",
+            "author": "Georges Seurat",
+            "year": "1884–1886",
+            "field": "malba",
+            "style": [
+                "pointilismus"
+            ],
+            "options": [
+                "Paul Cézanne",
+                "Henri Matisse",
+                "Georges Seurat",
+                "Pierre-Auguste Renoir"
+            ],
+            "correctAnswer": "Georges Seurat"
         },
         {
             "questionText": "Kdo je autorem tohoto díla?",
@@ -686,35 +685,35 @@
             "title": "Ingresovy housle",
             "author": "Man Ray",
             "year": "1924",
-            "field": "fotografie",
+            "field": "užité umění",
             "style": [
                 "surrealismus"
             ],
             "options": [
                 "Man Ray",
                 "Pablo Picasso",
-                "Juan Gris",
+                "Marcel Duchamp",
                 "Fernand Léger"
             ],
             "correctAnswer": "Man Ray"
         },
         {
-            "image": "assets/images/kafka_presse_2007.jpg",
-            "title": "Franz Kafka",
-            "author": "Neznámý autor",
-            "year": "1906",
-            "options": [
-                "Franz Kafka",
-                "Max Brod",
-                "Rainer Maria Rilke",
-                "Gustav Meyrink"
-            ],
-            "field": "fotografie",
-            "style": [
-                "fotografie"
-            ],
             "questionText": "Kdo je autorem tohoto díla?",
-            "correctAnswer": "Neznámý autor"
+            "image": "assets/images/kafka_presse_2007.jpg",
+            "title": "Dvě linie volnosti",
+            "author": "Ivan Kafka",
+            "year": "2001",
+            "field": "sochařství",
+            "style": [
+                "land art"
+            ],
+            "options": [
+                "Robert Smithson",
+                "Ivan Kafka",
+                "Christo",
+                "Andy Goldsworthy"
+            ],
+            "correctAnswer": "Ivan Kafka"
         },
         {
             "image": "assets/images/paintings-by-edouard-manet-1.jpg",
@@ -736,22 +735,23 @@
             "correctAnswer": "Édouard Manet"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/paintings-by-henri-de-toulouse-lautrec-1.jpg",
             "title": "V Moulin Rouge",
             "author": "Henri de Toulouse-Lautrec",
             "year": "1892",
+            "field": "malba",
+            "style": [
+                "impresionismus",
+                "postimpresionismus",
+                "secese"
+            ],
             "options": [
                 "Henri de Toulouse-Lautrec",
                 "Vincent van Gogh",
                 "Paul Gauguin",
                 "Edgar Degas"
             ],
-            "field": "malba",
-            "style": [
-                "postimpresionismus",
-                "secese"
-            ],
-            "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Henri de Toulouse-Lautrec"
         },
         {
@@ -773,58 +773,312 @@
             "correctAnswer": "Paul Cézanne"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/roy_lichtenstein_gallery_4.jpg",
-            "title": "Whaam!",
+            "title": "Beznadějné",
             "author": "Roy Lichtenstein",
             "year": "1963",
+            "field": "malba",
+            "style": [
+                "pop art"
+            ],
             "options": [
                 "Roy Lichtenstein",
                 "Andy Warhol",
                 "Jasper Johns",
                 "Claes Oldenburg"
             ],
-            "field": "malba",
-            "style": [
-                "pop art"
-            ],
-            "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Roy Lichtenstein"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/vincent_van_gogh_16.jpg",
             "title": "Autoportrét",
             "author": "Vincent van Gogh",
             "year": "1887",
+            "field": "malba",
+            "style": [
+                "postimpresionismus"
+            ],
             "options": [
                 "Vincent van Gogh",
                 "Paul Gauguin",
                 "Paul Cézanne",
                 "Henri de Toulouse-Lautrec"
             ],
-            "field": "malba",
-            "style": [
-                "postimpresionismus"
-            ],
-            "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Vincent van Gogh"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/Girl_with...(portrét_Frederike_Höppner).JPG",
             "title": "Dívka s...",
             "author": "Michal Ožibko",
             "year": "2004",
+            "field": "malba",
+            "style": [
+                "hyperrealismus"
+            ],
             "options": [
                 "Michal Ožibko",
                 "Zdeněk Sýkora",
                 "Theodor Pištěk",
                 "Karel Nepraš"
             ],
+            "correctAnswer": "Michal Ožibko"
+        },
+        {
+            "questionText": "Jaký je název tohoto díla? ",
+            "image": "assets/images/1936_1937_lighted_giraffes_01.jpg",
+            "title": "Hořící žirafa",
+            "author": "Salvador Dalí",
+            "year": "1937",
             "field": "malba",
             "style": [
-                "hyperrealismus"
+                "surrealismus"
             ],
+            "options": [
+                "Tajemství",
+                "Spící",
+                "Hořící žirafa",
+                "Guernica"
+            ],
+            "correctAnswer": "Hořící žirafa"
+        },
+        {
             "questionText": "Kdo je autorem tohoto díla?",
-            "correctAnswer": "Michal Ožibko"
+            "image": "assets/images/1280px-El_Greco_(Domenikos_Theotokopoulos)_-_Laocoön_-_Google_Art_Project.jpg",
+            "title": "Laokoón",
+            "author": "El Greco",
+            "year": "1610",
+            "field": "malba",
+            "style": [
+                "renesance",
+                "manýrismus"
+            ],
+            "options": [
+                "El Greco",
+                "Giuseppe Arcimboldo",
+                "Michelangelo Buonarroti",
+                "Masaccio"
+            ],
+            "correctAnswer": "El Greco"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/El_jardín_de_las_Delicias,_de_El_Bosco.jpg",
+            "title": "Zahrada pozemských rozkoší",
+            "author": "Hieronymus Bosch",
+            "year": "1490-1510",
+            "field": "malba",
+            "style": [
+                "severská renesance"
+            ],
+            "options": [
+                "Hieronymus Bosch",
+                "Pieter Bruegel starší",
+                "Jan van Eyck",
+                "Albrecht Dürer"
+            ],
+            "correctAnswer": "Hieronymus Bosch"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/Lightmatter_Sistine_Chapel_ceiling.jpg",
+            "title": "Strop Sixtinské kaple",
+            "author": "Michelangelo Buonarroti",
+            "year": "1508-1512",
+            "field": "malba",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Michelangelo Buonarroti",
+                "Leonardo da Vinci",
+                "Raffael Santi",
+                "Sandro Botticelli"
+            ],
+            "correctAnswer": "Michelangelo Buonarroti"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/Masaccio_trinity.jpg",
+            "title": "Svatá Trojice",
+            "author": "Masaccio",
+            "year": "1427",
+            "field": "malba",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Michelangelo Buonarroti",
+                "Giuseppe Arcimboldo",
+                "Pieter Bruegel starší",
+                "Masaccio"
+            ],
+            "correctAnswer": "Masaccio"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+            "title": "Mona Lisa",
+            "author": "Leonardo da Vinci",
+            "year": "1503",
+            "field": "malba",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Leonardo da Vinci",
+                "Raffael Santi",
+                "Michelangelo Buonarroti",
+                "Tizian"
+            ],
+            "correctAnswer": "Leonardo da Vinci"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg",
+            "title": "Stavba babylonské věže",
+            "author": "Pieter Bruegel starší",
+            "year": "1563",
+            "field": "malba",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Pieter Bruegel starší",
+                "Hieronymus Bosch",
+                "Peter Paul Rubens",
+                "Rembrandt"
+            ],
+            "correctAnswer": "Pieter Bruegel starší"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/Raphael_-_The_Sistine_Madonna_-_Google_Arts_&_Culture.jpg",
+            "title": "Sixtinská madona",
+            "author": "Raffael Santi",
+            "year": "1512",
+            "field": "malba",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Raffael Santi",
+                "Leonardo da Vinci",
+                "Michelangelo Buonarroti",
+                "Tizian"
+            ],
+            "correctAnswer": "Raffael Santi"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+            "title": "Zrození Venuše",
+            "author": "Sandro Botticelli",
+            "year": "1485",
+            "field": "malba",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Giuseppe Arcimboldo",
+                "Sandro Botticelli",
+                "Tizian",
+                "Masaccio"
+            ],
+            "correctAnswer": "Sandro Botticelli"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/The_Last_Supper_Leonardo_Da_Vinci_High_Resolution_size_32x16.jpg",
+            "title": "Poslední večeře",
+            "author": "Leonardo da Vinci",
+            "year": "1495-1498",
+            "field": "malba",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Leonardo da Vinci",
+                "Tizian",
+                "Michelangelo Buonarroti",
+                "Sandro Botticelli"
+            ],
+            "correctAnswer": "Leonardo da Vinci"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/Tizian_-_Danae_receiving_the_Golden_Rain_-_Prado.jpg",
+            "title": "Danaé",
+            "author": "Tizian",
+            "year": "1553",
+            "field": "malba",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Raffael Santi",
+                "Michelangelo Buonarroti",
+                "Leonardo da Vinci",
+                "Tizian"
+            ],
+            "correctAnswer": "Tizian"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/Vertumnus_arstidernas_gud_malad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg",
+            "title": "Vertumnus",
+            "author": "Giuseppe Arcimboldo",
+            "year": "1591",
+            "field": "malba",
+            "style": [
+                "renesance",
+                "manýrismus"
+            ],
+            "options": [
+                "Giuseppe Arcimboldo",
+                "Hieronymus Bosch",
+                "Pieter Bruegel starší",
+                "Albrecht Dürer"
+            ],
+            "correctAnswer": "Giuseppe Arcimboldo"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/View_of_Santa_Maria_del_Fiore_in_Florence.jpg",
+            "title": "Santa Maria del Fiore",
+            "author": "Filippo Brunelleschi",
+            "year": "1436",
+            "field": "architektura",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Filippo Brunelleschi",
+                "Leon Battista Alberti",
+                "Donato Bramante",
+                "Michelangelo Buonarroti"
+            ],
+            "correctAnswer": "Filippo Brunelleschi"
+        },
+        {
+            "questionText": "Kdo je autorem tohoto díla?",
+            "image": "assets/images/_The_School_of_Athens__by_Raffaello_Sanzio_da_Urbino.jpg",
+            "title": "Athénská škola",
+            "author": "Raffael Santi",
+            "year": "1509-1511",
+            "field": "malba",
+            "style": [
+                "renesance"
+            ],
+            "options": [
+                "Sandro Botticelli",
+                "Masaccio",
+                "Filippo Brunelleschi",
+                "Raffael Santi"
+            ],
+            "correctAnswer": "Raffael Santi"
         }
     ]
 }
