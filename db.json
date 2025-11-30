@@ -68,7 +68,7 @@
                 "Bohumil Kubišta",
                 "Antonín Procházka"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "český kubismus",
                 "kubismus"
@@ -106,7 +106,7 @@
                 "Václav Špála",
                 "Bohumil Kubišta"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "český kubismus",
                 "kubismus"
@@ -125,9 +125,9 @@
                 "Jasper Johns",
                 "Robert Rauschenberg"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
-                "pop art"
+                "pop-art"
             ],
             "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Andy Warhol"
@@ -143,7 +143,7 @@
                 "Max Ernst",
                 "Joan Miró"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "surrealismus"
             ],
@@ -161,7 +161,7 @@
                 "Caspar David Friedrich",
                 "William Blake"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "romantismus"
             ],
@@ -179,7 +179,7 @@
                 "Gustav Klimt",
                 "Oskar Kokoschka"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "expresionismus"
             ],
@@ -197,7 +197,7 @@
                 "Paul Cézanne",
                 "Claude Monet"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "postimpresionismus"
             ],
@@ -215,7 +215,7 @@
                 "Salvador Dalí",
                 "Joan Miró"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "kubismus",
                 "surrealismus"
@@ -234,7 +234,7 @@
                 "Josef Čapek",
                 "Antonín Procházka"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "český kubismus",
                 "kubismus",
@@ -254,10 +254,9 @@
                 "Andy Warhol",
                 "Roy Lichtenstein"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
-                "neo-dada",
-                "pop art"
+                "pop-art"
             ],
             "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Jasper Johns"
@@ -273,7 +272,7 @@
                 "Piet Mondrian",
                 "Robert Delaunay"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "abstrakce",
                 "orfismus"
@@ -292,7 +291,7 @@
                 "Paul Cézanne",
                 "Henri Rousseau"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "postimpresionismus"
             ],
@@ -310,7 +309,7 @@
                 "Maurice de Vlaminck",
                 "Raoul Dufy"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "fauvismus"
             ],
@@ -328,7 +327,7 @@
                 "Juan Gris",
                 "Fernand Léger"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "kubismus"
             ],
@@ -359,7 +358,7 @@
             "title": "Obklopené ostrovy",
             "author": "Christo a Jeanne-Claude",
             "year": "1983",
-            "field": "land art",
+            "field": "instalace",
             "style": [
                 "land art"
             ],
@@ -382,7 +381,7 @@
                 "Paul Sérusier",
                 "Vincent van Gogh"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "postimpresionismus",
                 "syntetismus"
@@ -401,7 +400,7 @@
                 "Paul Gauguin",
                 "Georges Seurat"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "postimpresionismus"
             ],
@@ -419,7 +418,7 @@
                 "Max Ernst",
                 "Yves Tanguy"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "surrealismus"
             ],
@@ -437,7 +436,7 @@
                 "Pierre-Auguste Renoir",
                 "Edgar Degas"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "realismus",
                 "impresionismus"
@@ -456,7 +455,7 @@
                 "Joan Miró",
                 "Giorgio de Chirico"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "surrealismus"
             ],
@@ -474,7 +473,7 @@
                 "Josef Šíma",
                 "Karel Teige"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "surrealismus"
             ],
@@ -492,7 +491,7 @@
                 "Edgar Degas",
                 "Édouard Manet"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "impresionismus"
             ],
@@ -510,7 +509,7 @@
                 "Henri Matisse",
                 "Pablo Picasso"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "postimpresionismus"
             ],
@@ -523,7 +522,7 @@
             "title": "Velcí modří koně",
             "author": "Franz Marc",
             "year": "1911",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "expresionismus"
             ],
@@ -541,7 +540,7 @@
             "title": "Syn člověka",
             "author": "René Magritte",
             "year": "1964",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "surrealismus"
             ],
@@ -559,9 +558,9 @@
             "title": "Bi-Vega",
             "author": "Victor Vasarely",
             "year": "1975",
-            "field": "malba",
+            "field": "malířství",
             "style": [
-                "op art"
+                "op-art"
             ],
             "options": [
                 "Victor Vasarely",
@@ -577,7 +576,7 @@
             "title": "Hvězda",
             "author": "Edgar Degas",
             "year": "1876 - 1877",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "impresionismus"
             ],
@@ -618,9 +617,9 @@
                 "Jasper Johns",
                 "Robert Rauschenberg"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
-                "pop art"
+                "pop-art"
             ],
             "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Andy Warhol"
@@ -631,7 +630,7 @@
             "title": "Sweet dreams, baby!",
             "author": "Roy Lichtenstein",
             "year": "1965",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "pop-art"
             ],
@@ -649,7 +648,7 @@
             "title": "Zebra",
             "author": "Victor Vasarely",
             "year": "1937",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "op-art"
             ],
@@ -667,7 +666,7 @@
             "title": "Nedělní odpoledne na ostrově Grande Jatte",
             "author": "Georges Seurat",
             "year": "1884–1886",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "pointilismus"
             ],
@@ -726,7 +725,7 @@
                 "Pierre-Auguste Renoir",
                 "Edgar Degas"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "impresionismus",
                 "realismus"
@@ -740,7 +739,7 @@
             "title": "V Moulin Rouge",
             "author": "Henri de Toulouse-Lautrec",
             "year": "1892",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "impresionismus",
                 "postimpresionismus",
@@ -765,7 +764,7 @@
                 "Paul Gauguin",
                 "Édouard Manet"
             ],
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "postimpresionismus"
             ],
@@ -778,9 +777,9 @@
             "title": "Beznadějné",
             "author": "Roy Lichtenstein",
             "year": "1963",
-            "field": "malba",
+            "field": "malířství",
             "style": [
-                "pop art"
+                "pop-art"
             ],
             "options": [
                 "Roy Lichtenstein",
@@ -796,7 +795,7 @@
             "title": "Autoportrét",
             "author": "Vincent van Gogh",
             "year": "1887",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "postimpresionismus"
             ],
@@ -814,7 +813,7 @@
             "title": "Dívka s...",
             "author": "Michal Ožibko",
             "year": "2004",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "hyperrealismus"
             ],
@@ -832,7 +831,7 @@
             "title": "Hořící žirafa",
             "author": "Salvador Dalí",
             "year": "1937",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "surrealismus"
             ],
@@ -850,7 +849,7 @@
             "title": "Laokoón",
             "author": "El Greco",
             "year": "1610",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance",
                 "manýrismus"
@@ -869,9 +868,9 @@
             "title": "Zahrada pozemských rozkoší",
             "author": "Hieronymus Bosch",
             "year": "1490-1510",
-            "field": "malba",
+            "field": "malířství",
             "style": [
-                "severská renesance"
+                "renesance"
             ],
             "options": [
                 "Hieronymus Bosch",
@@ -887,7 +886,7 @@
             "title": "Strop Sixtinské kaple",
             "author": "Michelangelo Buonarroti",
             "year": "1508-1512",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance"
             ],
@@ -905,7 +904,7 @@
             "title": "Svatá Trojice",
             "author": "Masaccio",
             "year": "1427",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance"
             ],
@@ -923,7 +922,7 @@
             "title": "Mona Lisa",
             "author": "Leonardo da Vinci",
             "year": "1503",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance"
             ],
@@ -941,7 +940,7 @@
             "title": "Stavba babylonské věže",
             "author": "Pieter Bruegel starší",
             "year": "1563",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance"
             ],
@@ -959,7 +958,7 @@
             "title": "Sixtinská madona",
             "author": "Raffael Santi",
             "year": "1512",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance"
             ],
@@ -977,7 +976,7 @@
             "title": "Zrození Venuše",
             "author": "Sandro Botticelli",
             "year": "1485",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance"
             ],
@@ -995,7 +994,7 @@
             "title": "Poslední večeře",
             "author": "Leonardo da Vinci",
             "year": "1495-1498",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance"
             ],
@@ -1013,7 +1012,7 @@
             "title": "Danaé",
             "author": "Tizian",
             "year": "1553",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance"
             ],
@@ -1031,7 +1030,7 @@
             "title": "Vertumnus",
             "author": "Giuseppe Arcimboldo",
             "year": "1591",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance",
                 "manýrismus"
@@ -1068,7 +1067,7 @@
             "title": "Athénská škola",
             "author": "Raffael Santi",
             "year": "1509-1511",
-            "field": "malba",
+            "field": "malířství",
             "style": [
                 "renesance"
             ],
@@ -1079,6 +1078,87 @@
                 "Raffael Santi"
             ],
             "correctAnswer": "Raffael Santi"
+        }
+    ],
+    "style_groups": [
+        {
+            "name": "pravěk a starověk",
+            "styles": [
+                "pravěk",
+                "Mezopotámie",
+                "Řecko",
+                "Řím",
+                "Egypt"
+            ]
+        },
+        {
+            "name": "středověk",
+            "styles": [
+                "románské umění",
+                "gotika",
+                "gotika u nás"
+            ]
+        },
+        {
+            "name": "novověk do 19. století",
+            "styles": [
+                "renesance",
+                "baroko",
+                "baroko u nás",
+                "rokoko",
+                "klasicismus"
+            ]
+        },
+        {
+            "name": "19. století",
+            "styles": [
+                "neorománský sloh",
+                "neogotika",
+                "neorenesance",
+                "neobaroko",
+                "neoklasicismus",
+                "purismus",
+                "romantismus",
+                "realismus",
+                "generace ND",
+                "impressionismus",
+                "postimpressionismus",
+                "pointilismus"
+            ]
+        },
+        {
+            "name": "20. a 21. století",
+            "styles": [
+                "secese",
+                "futurismus",
+                "expresionismus",
+                "fauvismus",
+                "geometrická abstrakce",
+                "dadaismus",
+                "surrealismus",
+                "neoplasticismus",
+                "op-art",
+                "pop-art",
+                "nová figurace",
+                "tachismus",
+                "hyperrealismus",
+                "fotorealismus",
+                "land art",
+                "funkcionalismus",
+                "minimalismus",
+                "modernismus",
+                "postmodernismus",
+                "brutalismus",
+                "socialistický realismus",
+                "konstruktivismus",
+                "kinetické umění",
+                "abstrakce",
+                "kubismus",
+                "orfismus",
+                "syntetismus",
+                "český kubismus",
+                "high-tech"
+            ]
         }
     ]
 }
