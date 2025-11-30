@@ -20,41 +20,41 @@
             "correctAnswer": "Josef Gočár"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/electric_lamp_cubist.jpg",
             "title": "Kubistická lampa",
             "author": "Emil Králíček",
             "year": "1913",
+            "field": "užité umění",
+            "style": [
+                "český kubismus",
+                "kubismus"
+            ],
             "options": [
                 "Emil Králíček",
                 "Josef Gočár",
                 "Vlastislav Hofman",
                 "Otakar Novotný"
             ],
-            "field": "design",
-            "style": [
-                "český kubismus",
-                "kubismus"
-            ],
-            "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Emil Králíček"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/cubist_coffee_set.jpg",
             "title": "Kávový servis",
             "author": "Pavel Janák",
             "year": "1911",
+            "field": "užité umění",
+            "style": [
+                "český kubismus",
+                "kubismus"
+            ],
             "options": [
                 "Pavel Janák",
                 "Josef Gočár",
                 "Rudolf Stockar",
                 "Ladislav Sutnar"
             ],
-            "field": "design",
-            "style": [
-                "český kubismus",
-                "kubismus"
-            ],
-            "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Pavel Janák"
         },
         {
@@ -354,22 +354,22 @@
             "correctAnswer": "Marcel Duchamp"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/g_landart_2.jpg",
-            "title": "Spirálové molo",
-            "author": "Robert Smithson",
-            "year": "1970",
-            "options": [
-                "Robert Smithson",
-                "Michael Heizer",
-                "Walter De Maria",
-                "Richard Long"
-            ],
+            "title": "Obklopené ostrovy",
+            "author": "Christo a Jeanne-Claude",
+            "year": "1983",
             "field": "land art",
             "style": [
                 "land art"
             ],
-            "questionText": "Kdo je autorem tohoto díla?",
-            "correctAnswer": "Robert Smithson"
+            "options": [
+                "Christo a Jeanne-Claude",
+                "Michael Heizer",
+                "Walter De Maria",
+                "Richard Long"
+            ],
+            "correctAnswer": "Christo a Jeanne-Claude"
         },
         {
             "image": "assets/images/gauguin-yellow christ.jpg",
