@@ -1078,6 +1078,445 @@
                 "Raffael Santi"
             ],
             "correctAnswer": "Raffael Santi"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/Vestonicka_venuse_edit.jpg",
+            "title": "Věstonická venuše",
+            "author": "Neznámý autor",
+            "year": "29 000 – 25 000 př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Věstonická venuše",
+                "Willendorfská venuše",
+                "Venuše z Lespugue",
+                "Venuše z Hohle Fels"
+            ],
+            "correctAnswer": "Věstonická venuše"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/Prehistoric_Prehistoric_-_Prehistoric_Art_The_Venus_of_Willendorf_-_Statuette_of_limestone_representing_a_-_(MeisterDrucke-1024497).jpg",
+            "title": "Willendorfská venuše",
+            "author": "Neznámý autor",
+            "year": "24 000 – 22 000 př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Willendorfská venuše",
+                "Věstonická venuše",
+                "Venuše z Brassempouy",
+                "Venuše z Hohle Fels "
+            ],
+            "correctAnswer": "Willendorfská venuše"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/Sisse_Brimberg_-_The_Venus_of_Laussel_carving_of_a_pregnant_woman_approximately_25000_years_old_-_(MeisterDrucke-1490023).jpg",
+            "title": "Venuše z Laussel",
+            "author": "Neznámý autor",
+            "year": "c. 25 000 př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Venuše z Laussel",
+                "Venuše z Willendorfu",
+                "Venuše z Lespugue",
+                "Venuše z Hohle Fels (Švábská venuše)"
+            ],
+            "correctAnswer": "Venuše z Laussel"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/VenusHohlefels2_pravěk.jpg",
+            "title": "Venuše z Hohle Fels",
+            "author": "Neznámý autor",
+            "year": "35 000 – 40 000 př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Venuše z Hohle Fels (Švábská venuše)",
+                "Věstonická venuše",
+                "Venuše z Dolních Věstonic",
+                "Venuše z Laussel"
+            ],
+            "correctAnswer": "Venuše z Hohle Fels (Švábská venuše)"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/Venuše z Brassempouy_pravěk_soška.jpg",
+            "title": "Venuše z Brassempouy",
+            "author": "neznámý autor",
+            "year": "c. 25 000 př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Venuše z Brassempouy",
+                "Hlava dívky",
+                "Věstonická venuše",
+                "Křivá tvář"
+            ],
+            "correctAnswer": "Venuše z Brassempouy"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/lespugue_venus_pravěk74_2.jpg",
+            "title": "Venuše z Lespugue",
+            "author": "neznámý autor",
+            "year": "c. 26 000 př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Venuše z Lespugue",
+                "Venuše z Willendorfu",
+                "Venuše z Brassempouy",
+                "Venuše z Hohle Fels (Švábská venuše)"
+            ],
+            "correctAnswer": "Venuše z Lespugue"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/Stone_sculpture_of_celtic_hero.jpg",
+            "title": "Hlava Kelta (Mšecké Žehrovice)",
+            "author": "autor neznámý",
+            "year": "3. st. př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "doba železná",
+                "latén"
+            ],
+            "options": [
+                "Hlava Kelta",
+                "Hlava Kúrose",
+                "Hlava z Brassempouy",
+                "Hlava Medúzy"
+            ],
+            "correctAnswer": "Hlava Kelta"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/Stroke-ornamented_Ware,_City_of_Prague_Museum,_keramika vypíchaná.jpg",
+            "title": "vypíchaná keramika",
+            "author": "autor neznámý",
+            "year": "neolit",
+            "field": "užité umění",
+            "style": [
+                "neolit"
+            ],
+            "options": [
+                "vypíchaná keramika",
+                "lineární keramika",
+                "šňůrová keramika",
+                "keramika zvoncovitých pokárů"
+            ],
+            "correctAnswer": "vypíchaná keramika"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/Vessel_of_the_Neolithic_Linear_Pottery_culture,_City_of_Prague_Museum,_A0001688,_175894.jpg",
+            "title": "lineární keramika",
+            "author": "autor neznámý",
+            "year": "neolit",
+            "field": "užité umění",
+            "style": [
+                "neolit"
+            ],
+            "options": [
+                "lineární keramika",
+                "vypíchaná keramika",
+                "moravská malovaná keramika",
+                "šňůrová kultura"
+            ],
+            "correctAnswer": "lineární keramika"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/moravská malovaná keramika neolit.jpg",
+            "title": "Moravská malovaná keramika",
+            "author": "autor neznámý",
+            "year": "neolit",
+            "field": "užité umění",
+            "style": [
+                "neolit"
+            ],
+            "options": [
+                "Moravská malovaná keramika",
+                "Lineární keramika",
+                "Vypíchaná keramika",
+                "Šňůrová keramika"
+            ],
+            "correctAnswer": "Moravská malovaná keramika"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/stonehenge.jpg",
+            "title": "Stonehenge",
+            "author": "Neznámý autor",
+            "year": "3100 – 1600 př. n. l.",
+            "field": "architektura",
+            "style": [
+                "neolit",
+                "doba bronzová",
+                "megalitická kultura"
+            ],
+            "options": [
+                "Stonehenge",
+                "Carnac",
+                "Newgrange",
+                "Avebury"
+            ],
+            "correctAnswer": "Stonehenge"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/altamira.jpg",
+            "title": "Jeskyně Altamira",
+            "author": "Neznámý autor",
+            "year": "c. 15 000 př. n. l.",
+            "field": "malířství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Jeskyně Altamira",
+                "Jeskyně Lascaux",
+                "Jeskyně Chauvet",
+                "Jeskyně Rouffignac"
+            ],
+            "correctAnswer": "Jeskyně Altamira"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/jeskynní malba býk lascaux_15000 let.jpg",
+            "title": "jeskynní malba (Jeskyně Lascaux)",
+            "author": "Neznámý autor",
+            "year": "c. 17 000 př. n. l.",
+            "field": "malířství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Jeskyně Lascaux",
+                "Jeskyně Altamira",
+                "Jeskyně Chauvet",
+                "Jeskyně Niaux"
+            ],
+            "correctAnswer": "Jeskyně Lascaux"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/chauvet jeskynní malba paleolit.jpg",
+            "title": "Jeskyně Chauvet",
+            "author": "Neznámý autor",
+            "year": "30 000 – 32 000 př. n. l.",
+            "field": "malířství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Jeskyně Chauvet",
+                "Jeskyně Lascaux",
+                "Jeskyně Altamira",
+                "Jeskyně Pech Merle"
+            ],
+            "correctAnswer": "Jeskyně Chauvet"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/carnac řady menhirů.jpg",
+            "title": "Menhiry v Carnacu",
+            "author": "Neznámý autor",
+            "year": "4500 – 3300 př. n. l.",
+            "field": "architektura",
+            "style": [
+                "neolit",
+                "megalitická kultura"
+            ],
+            "options": [
+                "Menhiry v Carnacu",
+                "Stonehenge",
+                "Callanish Stones",
+                "Ring of Brodgar"
+            ],
+            "correctAnswer": "Menhiry v Carnacu"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/dolmen.jpg",
+            "title": "dolmen",
+            "author": "Neznámý autor",
+            "year": "neolit",
+            "field": "architektura",
+            "style": [
+                "neolit",
+                "megalitická kultura"
+            ],
+            "options": [
+                "dolmen",
+                "menhir",
+                "kromlech",
+                "trilit"
+            ],
+            "correctAnswer": "dolmen"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/kromlech.jpg",
+            "title": "kromlech",
+            "author": "Neznámý autor",
+            "year": "neolit",
+            "field": "architektura",
+            "style": [
+                "neolit",
+                "megalitická kultura"
+            ],
+            "options": [
+                "kromlech",
+                "dolmen",
+                "menhir",
+                "trilit"
+            ],
+            "correctAnswer": "kromlech"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/menhir kamenný pastýř u klubuk u slaného.jpg",
+            "title": "Kamenný pastýř (menhir)",
+            "author": "Neznámý autor",
+            "year": "neolit",
+            "field": "architektura",
+            "style": [
+                "pravěk",
+                "neolit"
+            ],
+            "options": [
+                "Kamenný pastýř ",
+                "Zakletý mnich",
+                "Zkamenělý slouha",
+                "Pastýřský kámen"
+            ],
+            "correctAnswer": "Kamenný pastýř "
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/neolitický dlouhý dům neolit.JPG",
+            "title": "Neolitický dlouhý dům",
+            "author": "Neznámý autor",
+            "year": "neolit",
+            "field": "architektura",
+            "style": [
+                "neolit"
+            ],
+            "options": [
+                "neolitický dlouhý dům",
+                "keltské oppidum",
+                "slovanské hradiště",
+                "zemnice"
+            ],
+            "correctAnswer": "neolitický dlouhý dům"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/mzm-samanka-06-ara.jpg",
+            "title": "Šamanka ",
+            "author": "Neznámý autor",
+            "year": "c. 25 000 př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Šamanka",
+                "Věstonická venuše",
+                "Hlava ženy",
+                "Keltka"
+            ],
+            "correctAnswer": "Šamanka"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/kriva_tvar_26000.jpg",
+            "title": "Křivá tvář",
+            "author": "Neznámý autor",
+            "year": "c. 26 000 př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "paleolit"
+            ],
+            "options": [
+                "Křivá tvář",
+                "Věstonická venuše",
+                "Šamanka",
+                "Hlava Kelta"
+            ],
+            "correctAnswer": "Křivá tvář"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/tomuše_neolitická sukničková venuše 4500 4700.jpeg",
+            "title": "Tomuše (sukničková venuše)",
+            "author": "neznámý",
+            "year": "4700 – 4500 př. n. l.",
+            "field": "sochařství",
+            "style": [
+                "neolit"
+            ],
+            "options": [
+                "Tomuše (sukničková venuše)",
+                "Wilendorfská venuše ",
+                "Venuše s Laussel",
+                "Venuše z Horních Mašůvek"
+            ],
+            "correctAnswer": "Tomuše (sukničková venuše)"
+        },
+        {
+            "questionText": "Do kterého období patří? ",
+            "image": "assets/images/menhir kamenný pastýř u klubuk u slaného.jpg",
+            "title": "Kamenný pastýř",
+            "author": "neznámý",
+            "year": "neolit",
+            "field": "architektura",
+            "style": [
+                "neolit"
+            ],
+            "options": [
+                "neolit",
+                "paleolit",
+                "landart",
+                "antika "
+            ],
+            "correctAnswer": "neolit"
+        },
+        {
+            "questionText": "Co je to?",
+            "image": "assets/images/Venuse_z_Hlubokych_Masuvek.jpg",
+            "title": "Venuše z Hlubokých Mašůvek",
+            "author": "autor neznámý",
+            "year": "neolit",
+            "field": "sochařství",
+            "style": [
+                "neolit"
+            ],
+            "options": [
+                "Venuše z Hlubokých Mašůvek",
+                "Střelická venuše",
+                "Věstonická venuše",
+                "Tomuše (sukničková venuše)"
+            ],
+            "correctAnswer": "Venuše z Hlubokých Mašůvek"
         }
     ],
     "style_groups": [
@@ -1160,5 +1599,13 @@
                 "high-tech"
             ]
         }
+    ],
+    "styles": [
+        "doba bronzová",
+        "doba železná",
+        "latén",
+        "megalitická kultura",
+        "neolit",
+        "paleolit"
     ]
 }
