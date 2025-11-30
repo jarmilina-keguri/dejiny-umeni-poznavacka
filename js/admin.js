@@ -34,11 +34,29 @@ function loadQuestions() {
         .then(data => {
             questions = data;
             renderList();
+            updateDatalists();
         })
         .catch(err => {
             console.error(err);
             alert("Chyba při načítání dat. Běží server?");
         });
+}
+
+function updateDatalists() {
+    const fieldList = document.getElementById('field-list');
+    const styleList = document.getElementById('style-list');
+
+    // Extract unique fields
+    const fields = [...new Set(questions.map(q => q.field).filter(f => f))].sort();
+
+    // Extract unique styles (flatten array)
+    const styles = [...new Set(questions.flatMap(q => q.style).filter(s => s))].sort();
+
+    // Populate field datalist
+    fieldList.innerHTML = fields.map(f => `<option value="${f}">`).join('');
+
+    // Populate style datalist
+    styleList.innerHTML = styles.map(s => `<option value="${s}">`).join('');
 }
 
 function renderList() {

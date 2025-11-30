@@ -518,21 +518,21 @@
             "correctAnswer": "Paul Cézanne"
         },
         {
+            "questionText": "Kdo je autorem tohoto díla?",
             "image": "assets/images/Franz_Marc.jpg",
-            "title": "Věž modrých koní",
+            "title": "Velcí modří koně",
             "author": "Franz Marc",
-            "year": "1913",
+            "year": "1911",
+            "field": "malba",
+            "style": [
+                "expresionismus"
+            ],
             "options": [
                 "Franz Marc",
                 "August Macke",
                 "Wassily Kandinsky",
                 "Paul Klee"
             ],
-            "field": "malba",
-            "style": [
-                "expresionismus"
-            ],
-            "questionText": "Kdo je autorem tohoto díla?",
             "correctAnswer": "Franz Marc"
         },
         {
